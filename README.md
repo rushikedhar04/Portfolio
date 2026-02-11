@@ -1,352 +1,258 @@
-# Spline 3D Landing Page
+# 🚀 Portfolio - Rushi Kedhar Konduru
 
-A stunning, modern landing page featuring interactive 3D scenes powered by Spline, built with Next.js 15, React 19, TypeScript, and Tailwind CSS.
+A modern, interactive portfolio website featuring stunning 3D graphics, smooth animations, and a sleek black & white aesthetic. Built with Next.js 15, React 19, and cutting-edge web technologies.
 
-![Next.js](https://img.shields.io/badge/Next.js-15.1-black?style=for-the-badge&logo=next.js)
-![React](https://img.shields.io/badge/React-19.0-61dafb?style=for-the-badge&logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178c6?style=for-the-badge&logo=typescript)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38bdf8?style=for-the-badge&logo=tailwind-css)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-rushikedhar.info-00D9FF?style=for-the-badge&logo=vercel)](https://rushikedhar.info)
+[![Next.js](https://img.shields.io/badge/Next.js-15.5-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 
-## Tech Stack
+## ✨ Features
 
-This project is built using cutting-edge web technologies:
+### 🎨 Visual Excellence
+- **Interactive 3D Graphics** - Spline-powered 3D scenes with mouse-responsive animations
+- **Custom Cursor Glow** - Liquid-style cursor effect with smooth trailing
+- **Scroll Progress Indicator** - Animated gradient progress bar tracking page scroll
+- **Spotlight Effects** - Dynamic spotlight animations on cards and sections
+- **Smooth Animations** - Framer Motion-powered transitions and micro-interactions
 
-- **Next.js 15.1** - React framework with App Router and Turbopack
-- **React 19** - Latest React with improved performance
-- **TypeScript** - Type-safe development
-- **Tailwind CSS** - Utility-first CSS framework
-- **shadcn/ui** - Beautiful, accessible component system
-- **Spline** - Interactive 3D design tool
-- **Framer Motion** - Production-ready animation library
+### 📱 Responsive Design
+- **Mobile-First Approach** - Fully responsive across all device sizes
+- **Hamburger Navigation** - Animated mobile menu with smooth transitions
+- **Adaptive 3D Scenes** - Intelligent 3D content loading based on screen size
+- **Touch-Optimized** - Gesture-friendly interactions for mobile devices
 
-## Features
+### 🎯 Sections
+- **Hero Section** - Eye-catching introduction with animated text and 3D scene
+- **About Me** - Education, achievements, and professional summary
+- **Experience Timeline** - Interactive timeline with role details
+- **Featured Projects** - Showcase of key projects with tech stacks
+- **Skills Grid** - Organized display of technical capabilities
+- **Contact Section** - Multiple ways to connect with social links
 
-- Interactive 3D scenes with Spline integration
-- Fully responsive design
-- Modern gradient backgrounds and animations
-- Spotlight hover effects (Aceternity + ibelick implementations)
-- Lazy-loaded 3D components for optimal performance
-- Type-safe with TypeScript
-- Beautiful UI components from shadcn/ui
-- Smooth animations with Framer Motion
-- Dark theme optimized
-- Lightning-fast with Next.js 15 Turbopack
+### ⚡ Performance
+- **Next.js 15 with Turbopack** - Lightning-fast development and build times
+- **Optimized Assets** - Efficient loading and rendering
+- **Smooth Scrolling** - Native smooth scroll behavior
+- **SEO Optimized** - Comprehensive metadata and Open Graph tags
 
-## Project Structure
+## 🛠️ Tech Stack
+
+### Frontend
+- **[Next.js 15.5](https://nextjs.org/)** - React framework with App Router
+- **[React 19](https://react.dev/)** - Latest React with concurrent features
+- **[TypeScript](https://www.typescriptlang.org/)** - Type-safe development
+- **[Tailwind CSS 3.4](https://tailwindcss.com/)** - Utility-first styling
+
+### UI & Animations
+- **[Framer Motion](https://www.framer.com/motion/)** - Production-ready animations
+- **[Spline](https://spline.design/)** - Interactive 3D graphics
+- **[React Spline](https://www.npmjs.com/package/@splinetool/react-spline)** - React integration for Spline
+
+### Deployment
+- **[Vercel](https://vercel.com/)** - Hosting and continuous deployment
+- **Custom Domain** - Configured with rushikedhar.info
+
+## 📁 Project Structure
 
 ```
-claude-p1/
+portfolio/
 ├── app/
 │   ├── layout.tsx          # Root layout with metadata
-│   ├── page.tsx            # Main landing page
-│   └── globals.css         # Global styles with Tailwind directives
+│   ├── page.tsx            # Main portfolio page
+│   ├── globals.css         # Global styles and CSS variables
+│   └── favicon.ico         # Site favicon
 ├── components/
 │   └── ui/
-│       ├── card.tsx        # shadcn Card component
-│       ├── splite.tsx      # SplineScene wrapper with lazy loading
-│       ├── demo.tsx        # Demo component showcasing 3D scene
-│       ├── spotlight.tsx   # Aceternity spotlight effect
-│       ├── spotlight-aceternity.tsx
-│       └── spotlight-ibelick.tsx  # Interactive spotlight effect
-├── lib/
-│   └── utils.ts            # Utility functions (cn helper)
-├── tailwind.config.ts      # Tailwind configuration
+│       ├── card.tsx              # Reusable card component
+│       ├── cursor-glow.tsx       # Custom cursor effect
+│       ├── demo.tsx              # Basic Spline scene component
+│       ├── interactive-spline.tsx # Mouse-responsive 3D scene
+│       ├── mobile-nav.tsx        # Mobile navigation menu
+│       ├── scroll-progress.tsx   # Scroll indicator
+│       ├── splite.tsx            # Full-page Spline integration
+│       └── spotlight-ibelick.tsx # Spotlight card effect
+├── public/                  # Static assets
+├── tailwind.config.ts       # Tailwind configuration
 ├── tsconfig.json           # TypeScript configuration
-├── next.config.ts          # Next.js configuration
 └── package.json            # Project dependencies
 
 ```
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
-
 - Node.js 18+ installed
-- npm, yarn, pnpm, or bun package manager
+- npm, yarn, or pnpm package manager
 
 ### Installation
 
-1. Clone or navigate to the project directory:
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/rushikedhar04/Portfolio.git
+   cd Portfolio
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   ```
+
+4. **Open in browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+### Available Scripts
 
 ```bash
-cd claude-p1
+npm run dev      # Start development server with Turbopack
+npm run build    # Build for production
+npm run start    # Start production server
+npm run lint     # Run ESLint checks
 ```
 
-2. Dependencies are already installed! If you need to reinstall:
-
-```bash
-npm install
-```
-
-### Development
-
-Run the development server with Turbopack:
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
-
-### Build
-
-Build the production-ready application:
-
-```bash
-npm run build
-```
-
-### Start Production Server
-
-After building, start the production server:
-
-```bash
-npm start
-```
-
-## Component Documentation
-
-### SplineScene Component
-
-The main 3D scene component with lazy loading and suspense:
-
-```tsx
-import { SplineScene } from "@/components/ui/splite";
-
-<SplineScene
-  scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode"
-  className="w-full h-full"
-/>
-```
-
-**Props:**
-- `scene` (string, required): URL to your Spline scene
-- `className` (string, optional): Additional CSS classes
-
-**Features:**
-- Lazy loaded for optimal performance
-- Custom loading spinner
-- Suspense boundary for graceful loading
-
-### Spotlight Components
-
-Two spotlight implementations for different effects:
-
-#### Aceternity Spotlight (Static SVG)
-
-```tsx
-import { Spotlight } from "@/components/ui/spotlight";
-
-<Spotlight
-  className="-top-40 left-0 md:left-60 md:-top-20"
-  fill="white"
-/>
-```
-
-#### ibelick Spotlight (Interactive)
-
-```tsx
-import { SpotlightIbelick } from "@/components/ui/spotlight-ibelick";
-
-<SpotlightIbelick size={300} />
-```
-
-**Props:**
-- `size` (number, optional): Spotlight diameter (default: 200)
-- `className` (string, optional): Additional CSS classes
-- `springOptions` (SpringOptions, optional): Framer Motion spring configuration
-
-### Card Component
-
-shadcn/ui Card component with multiple parts:
-
-```tsx
-import {
-  Card,
-  CardHeader,
-  CardTitle,
-  CardDescription,
-  CardContent,
-  CardFooter
-} from "@/components/ui/card";
-
-<Card>
-  <CardHeader>
-    <CardTitle>Title</CardTitle>
-    <CardDescription>Description</CardDescription>
-  </CardHeader>
-  <CardContent>Content goes here</CardContent>
-  <CardFooter>Footer content</CardFooter>
-</Card>
-```
-
-### Demo Component
-
-Pre-built demo showcasing the SplineScene with spotlight effects:
-
-```tsx
-import { SplineSceneBasic } from "@/components/ui/demo";
-
-<SplineSceneBasic />
-```
-
-## Customization
-
-### Changing the 3D Scene
-
-1. Create your 3D scene at [spline.design](https://spline.design)
-2. Export and get the scene URL
-3. Replace the scene URL in the SplineScene component:
-
-```tsx
-<SplineScene
-  scene="YOUR_SPLINE_SCENE_URL"
-  className="w-full h-full"
-/>
-```
-
-### Modifying Colors
-
-Update colors in [tailwind.config.ts](tailwind.config.ts#L13-L60) or use Tailwind's color utilities in your components.
-
-### Adding New Components
-
-Follow the shadcn/ui pattern:
-
-1. Create component in `components/ui/`
-2. Use the `cn()` utility for className merging
-3. Export component for use in pages
-
-## Performance Optimization
-
-This project includes several performance optimizations:
-
-1. **Lazy Loading**: Spline components are lazy-loaded to reduce initial bundle size
-2. **Suspense Boundaries**: Graceful loading states for 3D content
-3. **Turbopack**: Next.js 15's faster bundler in development
-4. **Code Splitting**: Automatic code splitting with Next.js App Router
-5. **Optimized Images**: Next.js Image component (when images are added)
-
-## Key Dependencies
-
-### Production Dependencies
-
-- `@splinetool/react-spline`: ^4.0.0 - React bindings for Spline
-- `@splinetool/runtime`: ^1.9.45 - Spline runtime engine
-- `framer-motion`: ^11.15.0 - Animation library
-- `next`: ^15.1.6 - React framework
-- `react`: ^19.0.0 - UI library
-- `react-dom`: ^19.0.0 - React DOM renderer
-- `class-variance-authority`: ^0.7.1 - Component variant management
-- `clsx`: ^2.1.1 - Conditional class names
-- `tailwind-merge`: ^2.6.0 - Tailwind class merging
-
-### Dev Dependencies
-
-- `typescript`: ^5 - Type safety
-- `tailwindcss`: ^3.4.1 - CSS framework
-- `tailwindcss-animate`: ^1.0.7 - Animation utilities
-- `@types/*` - TypeScript type definitions
-
-## Why This Stack?
-
-### Next.js 15
-- App Router for improved routing and layouts
-- Turbopack for faster development
-- Built-in optimizations for production
-- Server and Client Components
-
-### TypeScript
-- Type safety catches errors at compile time
-- Better IDE support and autocomplete
-- Self-documenting code
-- Easier refactoring
-
-### Tailwind CSS
-- Utility-first approach for rapid development
-- Consistent design system
-- Small production bundle size
-- Easy responsive design
-
-### shadcn/ui
-- Copy-paste components (no package dependency)
-- Full control over component code
-- Built on Radix UI for accessibility
-- Customizable with Tailwind
-
-### Spline
-- Create professional 3D graphics without coding
-- Interactive and animated 3D scenes
-- Export directly to web
-- Lightweight runtime
-
-## Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-WebGL support required for 3D scenes.
-
-## Troubleshooting
-
-### 3D Scene Not Loading
-
-1. Check your internet connection
-2. Verify the Spline scene URL is correct
-3. Ensure WebGL is enabled in your browser
-4. Check browser console for errors
-
-### Build Errors
-
-```bash
-# Clear Next.js cache
-rm -rf .next
-
-# Reinstall dependencies
-rm -rf node_modules package-lock.json
-npm install
-
-# Rebuild
-npm run build
-```
-
-### Type Errors
-
-Make sure all TypeScript dependencies are installed:
-
-```bash
-npm install --save-dev @types/node @types/react @types/react-dom
-```
-
-## Contributing
-
-Feel free to submit issues and enhancement requests!
-
-## License
-
-This project is open source and available under the MIT License.
-
-## Acknowledgments
-
-- [Next.js](https://nextjs.org/) - React framework
-- [Tailwind CSS](https://tailwindcss.com/) - CSS framework
-- [shadcn/ui](https://ui.shadcn.com/) - Component system
-- [Spline](https://spline.design/) - 3D design tool
-- [Aceternity UI](https://ui.aceternity.com/) - Spotlight component inspiration
-- [ibelick](https://github.com/ibelick) - Interactive spotlight implementation
-- [Framer Motion](https://www.framer.com/motion/) - Animation library
-
-## Resources
-
-- [Next.js Documentation](https://nextjs.org/docs)
-- [React Documentation](https://react.dev)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [TypeScript Documentation](https://www.typescriptlang.org/docs)
-- [Spline Documentation](https://docs.spline.design)
-- [shadcn/ui Components](https://ui.shadcn.com)
+## 🎨 Customization
+
+### Updating Content
+- **Personal Info**: Edit `app/page.tsx` sections (Hero, About, Experience, Projects)
+- **Resume Link**: Update links in Hero and Contact sections
+- **Social Links**: Modify GitHub, LinkedIn, and email links throughout
+- **3D Scenes**: Replace Spline scene URLs in `components/ui/splite.tsx` and `interactive-spline.tsx`
+
+### Styling
+- **Colors**: Modify Tailwind config in `tailwind.config.ts`
+- **Animations**: Adjust Framer Motion variants in component files
+- **Layout**: Update CSS variables in `app/globals.css`
+
+### Adding New Sections
+1. Create the section in `app/page.tsx`
+2. Add navigation link in the nav bar
+3. Update mobile menu in `components/ui/mobile-nav.tsx`
+
+## 🌐 Deployment
+
+### Vercel (Recommended)
+1. Push your code to GitHub
+2. Import project in [Vercel Dashboard](https://vercel.com/new)
+3. Configure custom domain in project settings
+4. Add DNS records in your domain provider:
+   - A record: `@` → Vercel IP
+   - CNAME record: `www` → `cname.vercel-dns.com`
+
+### Other Platforms
+This is a standard Next.js app and can be deployed to:
+- **Netlify**: Connect GitHub repo and deploy
+- **Railway**: Deploy from GitHub
+- **AWS Amplify**: Connect and configure build settings
+- **Self-hosted**: Build and serve with `npm run build && npm run start`
+
+## 🔑 Key Features Breakdown
+
+### 1. Interactive 3D Scene
+The homepage features a mouse-responsive 3D scene created with Spline:
+- 3D model rotates based on cursor position
+- Smooth perspective transforms
+- Optimized for performance
+
+### 2. Custom Cursor Glow
+A liquid-style cursor effect that follows mouse movement:
+- Dual-layer glow with different speeds
+- Smooth spring animations
+- Hidden on mobile devices
+
+### 3. Scroll Progress Bar
+Gradient progress indicator at the top of the page:
+- Updates in real-time as user scrolls
+- Smooth spring animation
+- Sticky positioning
+
+### 4. Spotlight Card Effects
+Interactive spotlight that follows cursor on cards:
+- Creates depth and interactivity
+- Applied to experience and skill cards
+- Subtle and professional appearance
+
+### 5. Responsive Navigation
+Desktop navbar with animated mobile hamburger menu:
+- Smooth slide-in animation
+- Prevents body scroll when open
+- One-click navigation to sections
+
+## 📊 Performance Optimizations
+
+- **Code Splitting**: Next.js automatic code splitting
+- **Image Optimization**: Next.js Image component (ready for implementation)
+- **Lazy Loading**: Components load on-demand
+- **CSS Optimization**: Tailwind's JIT compiler for minimal CSS
+- **Font Optimization**: Next.js font optimization with Inter
+- **Turbopack**: Fast development with Next.js 15's bundler
+
+## 🔧 Configuration Files
+
+### `tailwind.config.ts`
+Custom Tailwind configuration with:
+- Extended color palette with CSS variables
+- Custom animations (spotlight)
+- Gradient utilities
+- Custom border radius scales
+
+### `tsconfig.json`
+TypeScript configuration with:
+- Path aliases (`@/`)
+- Strict type checking
+- Next.js optimizations
+
+### `package.json`
+Dependencies and scripts configuration
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 👨‍💻 Author
+
+**Rushi Kedhar Konduru**
+- Website: [rushikedhar.info](https://rushikedhar.info)
+- GitHub: [@rushikedhar04](https://github.com/rushikedhar04)
+- LinkedIn: [rushi-kedhar](https://linkedin.com/in/rushi-kedhar)
+- Email: rkonduru@uh.edu
+
+## 🙏 Acknowledgments
+
+- **[Spline](https://spline.design/)** - For the amazing 3D design tool
+- **[Vercel](https://vercel.com/)** - For seamless deployment
+- **[Tailwind CSS](https://tailwindcss.com/)** - For the utility-first CSS framework
+- **[Framer Motion](https://www.framer.com/motion/)** - For smooth animations
+- **Next.js Team** - For the incredible React framework
+
+## 🐛 Known Issues
+
+- Spline scenes may take a moment to load on slower connections
+- 3D interactions are disabled on mobile for performance
+
+## 🚧 Future Enhancements
+
+- [ ] Add blog section
+- [ ] Implement dark mode toggle
+- [ ] Add more interactive 3D scenes
+- [ ] Create case studies for projects
+- [ ] Add testimonials section
+- [ ] Implement analytics dashboard
 
 ---
 
-Built with by Claude Code
+**Built with ❤️ using Next.js 15, React 19, TypeScript, Tailwind CSS & Spline**
+
+© 2026 Rushi Kedhar Konduru. All rights reserved.
