@@ -5,8 +5,17 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Spline 3D Landing - Interactive 3D Web Experience",
-  description: "A modern landing page featuring interactive 3D scenes powered by Spline, built with Next.js, TypeScript, and Tailwind CSS",
+  title: "Rushi Kedhar Konduru | Software Engineer & AI/ML Enthusiast",
+  description: "Portfolio of Rushi Kedhar Konduru - MS CS Student at University of Houston. Full-stack developer specializing in AI/ML, React, Python, and cloud technologies. Building intelligent systems and scalable applications.",
+  keywords: ["Rushi Kedhar", "Software Engineer", "AI/ML", "Full Stack Developer", "React", "Python", "University of Houston"],
+  authors: [{ name: "Rushi Kedhar Konduru" }],
+  metadataBase: new URL('https://rushikedhar.info'),
+  openGraph: {
+    title: "Rushi Kedhar Konduru | Software Engineer",
+    description: "Full-stack developer and AI/ML enthusiast building intelligent systems",
+    type: "website",
+    url: "https://rushikedhar.info",
+  },
 };
 
 export default function RootLayout({
