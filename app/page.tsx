@@ -30,7 +30,7 @@ export default function Home() {
           </div>
           <div className="flex items-center gap-4">
             <a href="#contact" className="hidden sm:block px-6 py-2 bg-gradient-to-r from-cyan-500 to-blue-500 text-white rounded-full font-semibold hover:scale-105 transition-transform text-sm shadow-lg shadow-cyan-500/20">
-              Let's Talk
+              Let&apos;s Talk
             </a>
             <MobileNav />
           </div>
@@ -47,7 +47,7 @@ export default function Home() {
         <div className="container mx-auto px-4 z-10 grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <div className="inline-block px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-400 animate-in fade-in slide-in-from-bottom-2 duration-700">
-              👋 Hey there! I'm
+              👋 Hey there! I&apos;m
             </div>
             <h1 className="text-5xl md:text-7xl font-bold text-white animate-in fade-in slide-in-from-bottom-4 duration-1000">
               Rushi Kedhar
@@ -117,7 +117,7 @@ export default function Home() {
                 </span>
               </h2>
               <p className="text-gray-400 text-lg leading-relaxed">
-                I'm a Master's student in Computer Science at the <span className="text-white font-semibold">University of Houston</span> (GPA: 3.90),
+                I&apos;m a Master&apos;s student in Computer Science at the <span className="text-white font-semibold">University of Houston</span> (GPA: 3.90),
                 passionate about building scalable systems and AI-powered solutions.
               </p>
               <p className="text-gray-400 leading-relaxed">
@@ -338,7 +338,7 @@ export default function Home() {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
             <div className="inline-block px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-gray-400 mb-4">
-              What I've Built
+              What I&apos;ve Built
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
               Featured Projects
@@ -704,14 +704,14 @@ export default function Home() {
             Get In Touch
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Let's Build Something
+            Let&apos;s Build Something
             <br />
             <span className="bg-gradient-to-r from-white via-gray-300 to-gray-500 bg-clip-text text-transparent">
               Amazing Together
             </span>
           </h2>
           <p className="text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
-            I'm always open to discussing new opportunities, collaborations, or just chatting about tech!
+            I&apos;m always open to discussing new opportunities, collaborations, or just chatting about tech!
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

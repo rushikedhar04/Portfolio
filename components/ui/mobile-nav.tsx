@@ -105,7 +105,7 @@ export function MobileNav() {
                   onClick={handleLinkClick}
                   className="px-8 py-4 bg-white text-black rounded-full font-semibold hover:scale-105 transition-transform text-lg"
                 >
-                  Let's Talk
+                  Let&apos;s Talk
                 </a>
               </div>
             </div>
